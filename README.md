@@ -22,6 +22,12 @@ _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, X
 
 ---
 
+## Questions, Comments, or Concerns?
+
+For code related issues, please open a issue. For all other discussion, please open in the discussion tab.
+
+---
+
 ## Citation
 
 ---

@@ -9,3 +9,21 @@ version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2025-04-09
 url: "https://github.com/Lin-Group-at-UMass/Seq2Seq-IR"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "French"
+    given-names: "Ethan J."
+    orcid: "https://orcid.org/0000-0002-0418-0489"
+  - family-names: "Bot"
+    given-names: "Hew"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  doi: "10.0000/00000"
+  journal: "Journal Title"
+  month: 9
+  start: 1 # First page number
+  end: 10 # Last page number
+  title: "My awesome research software"
+  issue: 1
+  volume: 1
+  year: 2021

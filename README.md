@@ -22,6 +22,14 @@ _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, X
 
 ---
 
+## Data
+The data is available on Figshare at XXX, or can be downloaded by running:
+
+```bash
+XXXXXXXXXX
+```
+---
+
 ## Questions, Comments, or Concerns?
 
 For code related issues, please open a issue. For all other discussion, please open in the discussion tab.

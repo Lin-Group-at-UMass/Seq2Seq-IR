@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "French"
+  given-names: "Ethan J."
+  orcid: "https://orcid.org/0000-0002-0418-0489"
+title: "Seq2Seq-IR"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-04-09
+url: "https://github.com/Lin-Group-at-UMass/Seq2Seq-IR"

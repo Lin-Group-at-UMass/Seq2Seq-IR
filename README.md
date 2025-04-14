@@ -28,6 +28,7 @@ The data is available on Figshare at XXX, or can be downloaded by running:
 ```bash
 XXXXXXXXXX
 ```
+The data is also temporarily available on Google Drive at https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb
 ---
 
 ## Questions, Comments, or Concerns?

@@ -23,7 +23,7 @@ _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, X
 ---
 
 ## Data
-The data is available on Figshare at: 10.6084/m9.figshare.28754678 
+The data is available on Figshare at: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
 , or can be downloaded by running:
 

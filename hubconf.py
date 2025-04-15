@@ -15,3 +15,14 @@ def resnet18(pretrained=False, **kwargs):
     return model
 
 # model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
+
+if pretrained:
+    # For checkpoint saved in local GitHub repo, e.g. <RELATIVE_PATH_TO_CHECKPOINT>=weights/save.pth
+    dirname = os.path.dirname(__file__)
+    checkpoint = os.path.join(dirname, <RELATIVE_PATH_TO_CHECKPOINT>)
+    state_dict = torch.load(checkpoint)
+    model.load_state_dict(state_dict)
+
+    # For checkpoint saved elsewhere
+    checkpoint = 'https://download.pytorch.org/models/resnet18-5c106cde.pth'
+    model.load_state_dict(torch.hub.load_state_dict_from_url(checkpoint, progress=False))

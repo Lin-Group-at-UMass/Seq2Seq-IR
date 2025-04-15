@@ -51,4 +51,8 @@ For code related issues, please open a issue. For all other discussion, please o
 
 ## Acknowledgements
 
+H.G. and Z.L. acknowledge the financial support from from the University of Massachusetts
+Amherst under their Start-Up Funds and the ADVANCE Collaborative Grant. All au-
+thors acknowledge UMass/URI Unity Cluster and MIT SuperCloud for providing high-
+performance computing (HPC) resources.
 ---

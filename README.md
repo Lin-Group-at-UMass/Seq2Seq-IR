@@ -32,6 +32,12 @@ XXXXXXXXXX
 ```
 The data is also temporarily available on Google Drive at https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb
 ---
+## Model Availability
+
+The pre-trained models can be obtained via PyTorch Hub
+```python
+model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
+```
 
 ## Questions, Comments, or Concerns?
 

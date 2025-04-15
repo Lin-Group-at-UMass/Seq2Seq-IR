@@ -55,4 +55,3 @@ H.G. and Z.L. acknowledge the financial support from from the University of Mass
 Amherst under their Start-Up Funds and the ADVANCE Collaborative Grant. All au-
 thors acknowledge UMass/URI Unity Cluster and MIT SuperCloud for providing high-
 performance computing (HPC) resources.
----

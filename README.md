@@ -25,7 +25,7 @@ _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, X
 ## Data
 The data is available on Figshare at: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
-, or can be downloaded by running:
+or can be downloaded by running:
 
 ```bash
 XXXXXXXXXX
@@ -38,7 +38,7 @@ The pre-trained models can be obtained via PyTorch Hub
 ```python
 model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
 ```
-
+or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
 ## Questions, Comments, or Concerns?
 
 For code related issues, please open a issue. For all other discussion, please open in the discussion tab.

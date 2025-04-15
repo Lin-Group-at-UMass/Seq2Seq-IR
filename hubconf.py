@@ -26,3 +26,15 @@ if pretrained:
     # For checkpoint saved elsewhere
     checkpoint = 'https://download.pytorch.org/models/resnet18-5c106cde.pth'
     model.load_state_dict(torch.hub.load_state_dict_from_url(checkpoint, progress=False))
+
+def IR_Transformer(pretrained=True, **kwargs):
+    return 
+    
+def IR_GPT(pretrained=True, **kwargs):
+    return 
+    
+def IR_LSTM(pretrained=True, **kwargs):
+    return 
+    
+def IR_GRU(pretrained=True, **kwargs):
+    return 

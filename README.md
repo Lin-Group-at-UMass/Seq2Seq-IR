@@ -37,7 +37,7 @@ or can be downloaded by running:
 ```bash
 XXXXXXXXXX
 ```
-The data is also temporarily available on Google Drive at https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb
+The data is also temporarily available on Google Drive at [Google Drive](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb)
 ---
 ## Model Availability
 

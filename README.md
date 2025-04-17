@@ -19,7 +19,6 @@ Infrared (IR) spectroscopy reveals molecular and material features via their cha
 conda create -n ir python=3.12
 cd Seq2Seq-IR/Spectrum2Structure/
 pip install -r requirements.txt
-
 ```
 
 ---

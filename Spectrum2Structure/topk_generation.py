@@ -1,8 +1,4 @@
 import sys
-
-sys.path = [p for p in sys.path if 'rdkit' not in p]
-
-sys.path.append('./.conda/envs/xianqi/lib/python3.9/site-packages/')
 import warnings
 from models_topk import GRU_topk, LSTM_autoregressive_topk, GPT_topk, Transformer_topk
 import pytorch_lightning as pl

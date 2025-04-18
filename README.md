@@ -84,7 +84,7 @@ chmod +x run_train.sh
 ./run_train.sh transformer
 ```
 
-#### Run Mixture Dataset
+#### Run Mixture Molecule Dataset
 ```bash
 chmod +x run_train.sh
 ./run_train.sh lstm-mixture

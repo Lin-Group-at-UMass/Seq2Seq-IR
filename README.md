@@ -45,6 +45,7 @@ The pre-trained models can be obtained via PyTorch Hub
 model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
 ```
 or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
+
 or you can download the weights from
 * [Google Drive](https://drive.google.com/drive/folders/1Wqoa6ORUxERydX8EVyIyzWl03dBqyarf)
 

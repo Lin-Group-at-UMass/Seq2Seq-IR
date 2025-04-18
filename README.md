@@ -6,8 +6,9 @@
 **Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures**\
 _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, Xiao Liu, Hui Guan, and Zhou Lin_
 
-<iframe src="./figures/Figure_1_encoder-decoder_neurips_v10.pdf" width="100%" height="600px">
-</iframe>
+<p align="center">
+<img src="./figures/Figure_1_encoder-decoder_neurips_v10.jpg">
+</p>
 
 ---
 

@@ -85,9 +85,9 @@ Available models for different datasets
 
 SELFIES  Format   Dataset: ```lstm```, ```gru```, ```gpt```, ```transformer```
 
-Mixture Molecule Dataset: ```lstm-mixture```, ```gru-mixture ```, ```gpt-mixture```, ```transformer-mixture```
+Mixture  Molecule Dataset: ```lstm-mixture```, ```gru-mixture ```, ```gpt-mixture```, ```transformer-mixture```
 
-SMILES  Format   Dataset: ```lstm-smiles```, ```gru-smiles```, ```gpt-smiles```, ```transformer-smiles```
+SMILES   Format   Dataset: ```lstm-smiles```, ```gru-smiles```, ```gpt-smiles```, ```transformer-smiles```
 
 ```bash
 cd Spectrum2Structure/
@@ -130,13 +130,13 @@ Optional arguments:
 
 ### Model Evaluation
 
-Available modes for different datasets
+Available tasks for different datasets
 
 SELFIES  Format   Dataset: ```eval```, ```generation```, ```topk```
 
-Mixture Molecule Dataset: ```eval```, ```generation```
+Mixture  Molecule Dataset: ```eval```, ```generation```
 
-SMILES  Format   Dataset: ```eval```
+SMILES   Format   Dataset: ```eval```
 
 ```bash
 cd Spectrum2Structure/

@@ -75,27 +75,27 @@ unzip smiles_checkpoints.zip
 
 ## Usage
 ### Model Training
+#### Run Single Molecule Dataset
 ```bash
 chmod +x run_train.sh
-```
-### Run Single Molecule Dataset
-```bash
 ./run_train.sh lstm
 ./run_train.sh gru
 ./run_train.sh gpt
 ./run_train.sh transformer
 ```
 
-### Run Mixture Dataset
+#### Run Mixture Dataset
 ```bash
+chmod +x run_train.sh
 ./run_train.sh lstm-mixture
 ./run_train.sh gru-mixture
 ./run_train.sh gpt-mixture
 ./run_train.sh transformer-mixture
 ```
 
-### Run SMILES Format Dataset
+#### Run SMILES Format Dataset
 ```bash
+chmod +x run_train.sh
 ./run_train.sh lstm-smiles
 ./run_train.sh gru-smiles
 ./run_train.sh gpt-smiles

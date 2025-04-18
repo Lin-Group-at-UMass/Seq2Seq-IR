@@ -113,19 +113,19 @@ python train.py --model transformer-smiles --mode smiles \
 
 Optional arguments:
 ```bash
-  --model                LSTM, GRU, GPT, Transformer     (default: Transformer)
-  --mode                 selfies, smiles, mixture        (default: selfies)
-  --dim                  size of input hidden units      (default: 768)
-  --dropout              dropout probability             (default: 0.1)
-  --layers               number of hidden layers         (default: 6)
-  --heads                number of attention heads       (default: 6)
-  --batch_size           batch size                      (default: 256)
-  --max_epochs           number of epochs to train       (default: 80)
-  --lr                   initial learning rate           (default: 1e-4)
-  --weight_decay         weight decay coefficient        (default: 1e-4)
-  --use_gpu              whether to use GPU              (default: True)
-  --calculate_prediction whether to calculate prediction (default: True)
-  --seed                 random seed                     (default: 78438379)
+  --model                Model architecture: LSTM, GRU, GPT, Transformer            (default: Transformer)
+  --mode                 Choose encoding mode: selfies, smiles, or mixture          (default: selfies)
+  --hidden_dim           size of input hidden units                                 (default: 768)
+  --dropout              dropout probability                                        (default: 0.1)
+  --layers               number of hidden layers                                    (default: 6)
+  --heads                number of attention heads                                  (default: 6)
+  --batch_size           Batch size for training                                    (default: 256)
+  --max_epochs           number of epochs to train                                  (default: 80)
+  --lr                   initial learning rate                                      (default: 1e-4)
+  --weight_decay         weight decay coefficient                                   (default: 1e-5)
+  --use_gpu              Whether to use GPU for training                            (default: True)
+  --calculate_prediction whether to calculate prediction                            (default: True)
+  --seed                 Random seed for reproducibility                            (default: 78438379)
 ```
 
 ### Model Evaluation

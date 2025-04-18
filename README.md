@@ -63,7 +63,7 @@ unzip smiles_checkpoints.zip
 #### Seq2Seq Models - SMILES
 * [smiles_checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
-The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
+### The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
 
 ---
 ## Model Availability

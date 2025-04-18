@@ -3,18 +3,18 @@
 # Script to train models using train.py
 # Usage: ./run_train.sh <model>
 # Models:
-#   transformer           Train Transformer model with SELFIES encoding
-#   lstm                  Train LSTM model with SELFIES encoding
-#   gru                   Train GRU model with SELFIES encoding
-#   gpt                   Train GPT model with SELFIES encoding
-#   transformer-mixture   Train Transformer model with mixture encoding
-#   lstm-mixture          Train LSTM model with mixture encoding
-#   gru-mixture           Train GRU model with mixture encoding
-#   gpt-mixture           Train GPT model with mixture encoding
-#   transformer-smiles    Train Transformer model with SMILES encoding
-#   lstm-smiles           Train LSTM model with SMILES encoding
-#   gru-smiles            Train GRU model with SMILES encoding
-#   gpt-smiles            Train GPT model with SMILES encoding
+#   transformer           Train Transformer model with SELFIES encoding dataset
+#   lstm                  Train LSTM model with SELFIES encoding dataset
+#   gru                   Train GRU model with SELFIES encoding dataset
+#   gpt                   Train GPT model with SELFIES encoding dataset
+#   transformer-mixture   Train Transformer model with mixture encoding dataset
+#   lstm-mixture          Train LSTM model with mixture encoding dataset
+#   gru-mixture           Train GRU model with mixture encoding dataset
+#   gpt-mixture           Train GPT model with mixture encoding dataset
+#   transformer-smiles    Train Transformer model with SMILES encoding dataset
+#   lstm-smiles           Train LSTM model with SMILES encoding dataset
+#   gru-smiles            Train GRU model with SMILES encoding dataset
+#   gpt-smiles            Train GPT model with SMILES encoding dataset
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <model>"

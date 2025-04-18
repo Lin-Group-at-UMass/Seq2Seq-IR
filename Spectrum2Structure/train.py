@@ -29,7 +29,7 @@ def parse_args():
     parser.add_argument('--batch_size', type=int, default=256)
     parser.add_argument('--max_epochs', type=int, default=80)
     parser.add_argument('--lr', type=float, default=1e-4)
-    parser.add_argument('--weight_decay', type=float, default=1e-4)
+    parser.add_argument('--weight_decay', type=float, default=1e-5)
     parser.add_argument('--use_gpu', type=bool, default=True)
     parser.add_argument('--calculate_prediction', type=bool, default=True)
     parser.add_argument('--seed', type=int, default=78438379)

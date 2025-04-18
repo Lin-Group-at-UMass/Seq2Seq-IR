@@ -63,10 +63,10 @@ unzip smiles_checkpoints.zip
 * [Transformer](https://drive.google.com/file/d/1GEKui9gihHuNBLjL39D7RFfIPul5FBBf/view?usp=drive_link)
 
 #### Seq2Seq Models - Mixture
-* [LSTM](https://drive.google.com/file/d/1SR_eywrGnizKsq3pj90MIOsoJUXYmXyi/view?usp=drive_link)
-* [GRU](https://drive.google.com/file/d/1gnLu4cNLegIQ_VY02NHMEHdprG7vvooN/view?usp=drive_link)
-* [GPT](https://drive.google.com/file/d/1MEW_AM3cALkOGscMi5OxXYdUKQECDlny/view?usp=drive_link)
-* [Transformer](https://drive.google.com/file/d/1BvmMF_TV3AM2rN7n5v-x8-M_gF-I_PMk/view?usp=drive_link)
+* [LSTM-Mixture](https://drive.google.com/file/d/1SR_eywrGnizKsq3pj90MIOsoJUXYmXyi/view?usp=drive_link)
+* [GRU-Mixture](https://drive.google.com/file/d/1gnLu4cNLegIQ_VY02NHMEHdprG7vvooN/view?usp=drive_link)
+* [GPT-Mixture](https://drive.google.com/file/d/1MEW_AM3cALkOGscMi5OxXYdUKQECDlny/view?usp=drive_link)
+* [Transformer-Mixture](https://drive.google.com/file/d/1BvmMF_TV3AM2rN7n5v-x8-M_gF-I_PMk/view?usp=drive_link)
 
 #### Seq2Seq Models - SMILES
 * [smiles_checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)

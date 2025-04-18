@@ -95,6 +95,15 @@ chmod +x run_train.sh
 ./run_train.sh <model>
 ```
 
+Or you can try training the model with customized settings
+```bash
+cd Spectrum2Structure/
+python train.py --model Transformer --mode smiles \
+    --hidden_dim 768 --dropout 0.1 --layers 6 --heads 6 \
+    --batch_size 256 --max_epochs 95 --lr 1e-4 --weight_decay 1e-5
+```
+
+
 #### Example
 Training Transformer model by SMILES format dataset:
 ```bash

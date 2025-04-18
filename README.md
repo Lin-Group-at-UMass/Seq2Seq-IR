@@ -82,6 +82,7 @@ unzip smiles_checkpoints.zip
 ### Model Training
 #### Run Single Molecule Dataset
 ```bash
+cd Spectrum2Structure/
 chmod +x run_train.sh
 ./run_train.sh lstm
 ./run_train.sh gru
@@ -91,6 +92,7 @@ chmod +x run_train.sh
 
 #### Run Mixture Molecule Dataset
 ```bash
+cd Spectrum2Structure/
 chmod +x run_train.sh
 ./run_train.sh lstm-mixture
 ./run_train.sh gru-mixture
@@ -100,6 +102,7 @@ chmod +x run_train.sh
 
 #### Run SMILES Format Dataset
 ```bash
+cd Spectrum2Structure/
 chmod +x run_train.sh
 ./run_train.sh lstm-smiles
 ./run_train.sh gru-smiles

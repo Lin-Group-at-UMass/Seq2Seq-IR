@@ -81,35 +81,15 @@ unzip smiles_checkpoints.zip
 ## Usage
 ### Model Training
 
-Available models ``` LSTM ```
+Available models for different datasets
+Single  Molecule Dataset: ```lstm```, ```gru```, ```gpt```, ```transformer```
+Mixture Molecule Dataset: ```lstm-mixture```, ```gru-mixture ```, ```gpt-mixture```, ```transformer-mixture```
+SMILES  Format   Dataset: ```lstm-smiles```, ```gru-smiles```, ```gpt-smiles```, ```transformer-smiles```
 
 ```bash
 cd Spectrum2Structure/
 chmod +x run_train.sh
-```
-
-Run Single Molecule Dataset
-```bash
-./run_train.sh lstm
-./run_train.sh gru
-./run_train.sh gpt
-./run_train.sh transformer
-```
-
-Run Mixture Molecule Dataset
-```bash
-./run_train.sh lstm-mixture
-./run_train.sh gru-mixture
-./run_train.sh gpt-mixture
-./run_train.sh transformer-mixture
-```
-
-Run SMILES Format Dataset
-```bash
-./run_train.sh lstm-smiles
-./run_train.sh gru-smiles
-./run_train.sh gpt-smiles
-./run_train.sh transformer-smiles
+./run_train.sh <model>
 ```
 
 ### Model Testing

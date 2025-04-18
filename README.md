@@ -25,7 +25,7 @@ conda activate ir
 cd Spectrum2Structure/
 pip install -r requirements.txt
 ```
-#### Note: please keep ```pip``` version ≤ 24.0, if your ```pip``` version > 24.0 that can't download ```pytorch_lightning==1.6.3```. If you download ```pytorch_lightning ≥ 1.6.3```, please change the ```'gpus'``` setting of trainer in ```train.py```.
+#### Note: please keep ```pip``` version ≤ 24.0, if your ```pip``` version > 24.0 that can't download ```pytorch_lightning==1.6.3```. If you download ```pytorch_lightning≥1.6.3```, please change the ```'gpus'``` setting of trainer in ```train.py```.
 ---
 
 ## Data

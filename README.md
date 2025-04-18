@@ -145,6 +145,10 @@ For code related issues, please open a issue. For all other discussion, please o
 
 ## Citation
 
+If you find this model and code are useful in your work, please cite:
+```bibtex
+French E, Deng X, Chen S, Ju C-W, Cheng X, Zhang L, et al.
+Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures. ChemRxiv. 2025; doi:10.26434/chemrxiv-2025-n4q84
 ---
 
 ## Acknowledgements

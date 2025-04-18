@@ -13,10 +13,9 @@ from src.models_mixture import LSTM_Mixture, GRU_Mixture, GPT_Mixture, Transform
 from src.tool_functions import same_smi
 
 # Import dataset utilities
-from dataset_utils import SpectrumDataset, SpectrumDataModule
-from dataset_utils_smiles import SpectrumDataset as SpectrumDataset_SMILES
-from dataset_utils_smiles import SpectrumDataModule as SpectrumDataModule_SMILES
-from dataset_utils_mixture import SpectrumDataset_2, SpectrumDataModule as SpectrumDataModule_Mixture
+from dataset_utils import SelfiesSpectrumDataset, SelfiesSpectrumDataModule, \
+    MixtureSpectrumDataset, MixtureSpectrumDataModule, \
+    SmilesSpectrumDataset, SmilesSpectrumDataModule
 
 
 def parse_args():
@@ -174,16 +173,16 @@ def main():
 
     # Dataset setup based on mode
     if args.mode == 'selfies':
-        dataset = SpectrumDataset()
-        dataloader = SpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5, val_split=0.2)
+        dataset = SelfiesSpectrumDataset()
+        dataloader = SelfiesSpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5, val_split=0.2)
         # Meta info
         max_word_len = dataset.pad_to_len
         num_classes = len(dataset.symbol_to_idx)
         input_dim = dataset.spectra.shape[-1]
         padding_idx = dataset.symbol_to_idx['[nop]']
     elif args.mode == 'smiles':
-        dataset = SpectrumDataset_SMILES()
-        dataloader = SpectrumDataModule_SMILES(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
+        dataset = SmilesSpectrumDataset()
+        dataloader = SmilesSpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
                                                val_split=0.2)
         # Meta info
         max_word_len = dataset.pad_to_len
@@ -191,8 +190,8 @@ def main():
         input_dim = dataset.spectra.shape[-1]
         padding_idx = dataset.tokenizer.pad_token_id
     elif args.mode == 'mixture':
-        dataset = SpectrumDataset_2()
-        dataloader = SpectrumDataModule_Mixture(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
+        dataset = MixtureSpectrumDataset()
+        dataloader = MixtureSpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
                                                 val_split=0.2)
         # Meta info
         max_word_len = dataset.pad_to_len

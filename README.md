@@ -85,7 +85,7 @@ cd Spectrum2Structure/
 chmod +x run_train.sh
 ```
 
-#### Run Single Molecule Dataset
+Run Single Molecule Dataset
 ```bash
 ./run_train.sh lstm
 ./run_train.sh gru
@@ -93,7 +93,7 @@ chmod +x run_train.sh
 ./run_train.sh transformer
 ```
 
-#### Run Mixture Molecule Dataset
+Run Mixture Molecule Dataset
 ```bash
 ./run_train.sh lstm-mixture
 ./run_train.sh gru-mixture
@@ -101,7 +101,7 @@ chmod +x run_train.sh
 ./run_train.sh transformer-mixture
 ```
 
-#### Run SMILES Format Dataset
+Run SMILES Format Dataset
 ```bash
 ./run_train.sh lstm-smiles
 ./run_train.sh gru-smiles

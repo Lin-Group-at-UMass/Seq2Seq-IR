@@ -164,7 +164,7 @@ Optional arguments:
 --mode            Choose encoding mode: selfies, smiles, or mixture          (default: selfies)
 --task            Task type: evaluation, generation, or top‑k prediction     (default: eval)
 --model           Model architecture: LSTM, GRU, GPT, Transformer            (default: Transformer)
---checkpoints     Path to model checkpoint                                   
+--checkpoints     Path to model checkpoint (required)                                   
 --batch_size      Batch size for testing                                     (default: 256)
 --use_gpu         Whether to use GPU for inference                           (default: True)
 --seed            Random seed for reproducibility                            (default: 78438379)

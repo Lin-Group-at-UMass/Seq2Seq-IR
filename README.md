@@ -80,6 +80,9 @@ unzip smiles_checkpoints.zip
 
 ## Usage
 ### Model Training
+
+Available models ``` LSTM ```
+
 ```bash
 cd Spectrum2Structure/
 chmod +x run_train.sh
@@ -108,6 +111,28 @@ Run SMILES Format Dataset
 ./run_train.sh gpt-smiles
 ./run_train.sh transformer-smiles
 ```
+
+### Model Testing
+```bash
+cd Spectrum2Structure/
+chmod +x run_test.sh
+```
+
+Get Models Results
+```bash
+./run_test.sh <model> <checkpoint> eval [output_file]
+```
+
+Generate Sequences
+```bash
+./run_test.sh <model> <checkpoint> generation [output_file]
+```
+
+Get Models Top-k Results
+```bash
+./run_test.sh <model> <checkpoint> topk [output_file]
+```
+
 
 ### Model Evaluation
 

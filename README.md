@@ -32,12 +32,12 @@ pip install -r requirements.txt
 ## Data
 The data is available on Figshare at: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
-or can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1uXbKZQDkxGHBLhQMfLQr2GVHbTjspZlM):
+or can be downloaded the [data](https://drive.google.com/drive/folders/1uXbKZQDkxGHBLhQMfLQr2GVHbTjspZlM) from Google Drive:
 
 ```bash
 XXXXXXXXXX
 ```
-The code and data are also temporarily available on [Google Drive](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb)
+The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
 ---
 ## Model Availability
 

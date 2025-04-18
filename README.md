@@ -23,7 +23,6 @@ conda activate ir
 cd Seq2Seq-IR/Spectrum2Structure/
 
 pip install -r requirements.txt
-
 ```
 
 ---

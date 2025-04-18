@@ -103,7 +103,7 @@ chmod +x run_train.sh
 ./run_train.sh transformer-smiles
 ```
 
-Or you can try training the model with customized settings
+Or you can try training the model with custom settings.
 ```bash
 cd Spectrum2Structure/
 python train.py --model Transformer --mode smiles \

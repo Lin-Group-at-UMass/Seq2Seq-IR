@@ -22,7 +22,7 @@ Infrared (IR) spectroscopy reveals molecular and material features via their cha
 ```
 conda create -n ir python=3.12
 conda activate ir
-cd Seq2Seq-IR/Spectrum2Structure/
+cd Spectrum2Structure/
 pip install -r requirements.txt
 ```
 
@@ -35,7 +35,7 @@ or can be downloaded the [data](https://drive.google.com/drive/folders/1cnhPv3j5
 
 and save data to this dir
 ```bash
-cd Seq2Seq-IR/Spectrum2Structure/data
+cd Spectrum2Structure/data
 # download or copy data to this default directory
 ```
 
@@ -55,8 +55,9 @@ or you can download the weights from
 
 and save model weights to this dir
 ```bash
-cd Seq2Seq-IR/Spectrum2Structure
+cd Spectrum2Structure/
 mkdir checkpoints
+cd checkpoints/
 # download or copy model weight to this default directory
 unzip smiles_checkpoints.zip
 ```

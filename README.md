@@ -146,12 +146,14 @@ For code related issues, please open a issue. For all other discussion, please o
 ## Citation
 
 If you find this model and code are useful in your work, please cite:
+```bibtex
 @article{french2025revolutionizing,
   title={Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures},
   author={French, Ethan and Deng, Xianqi and Chen, Siqi and Ju, Cheng-Wei and Cheng, Xi and Zhang, Lijun and Liu, Xiao and Guan, Hui and Lin, Zhou},
   journal={ChemRxiv preprint doi:10.26434/chemrxiv-2025-n4q84},
   year={2025}
 }
+```
 
 ---
 

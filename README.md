@@ -160,7 +160,8 @@ Or you can test the model with custom settings.
 ```bash
 cd Spectrum2Structure/
 python test.py --model <model> --mode <mode> --task <task> \
-    --checkpoints <checkpoints> --batch_size <batch_size> --use_gpu <use_gpu> --output_file <output_file>
+    --checkpoints <checkpoints> --batch_size <batch_size> \
+    --use_gpu <use_gpu> --output_file <output_file>
 ```
 
 Optional arguments:

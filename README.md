@@ -95,20 +95,13 @@ chmod +x run_train.sh
 ./run_train.sh <model>
 ```
 
-#### Example
-Training Transformer model by SMILES format dataset:
+Or you can train the model with custom settings:
 ```bash
 cd Spectrum2Structure/
-chmod +x run_train.sh
-./run_train.sh transformer-smiles
-```
-
-Or you can train the model with custom settings.
-```bash
-cd Spectrum2Structure/
-python train.py --model Transformer --mode smiles \
-    --hidden_dim 768 --dropout 0.1 --layers 6 --heads 6 \
-    --batch_size 256 --max_epochs 95 --lr 1e-4 --weight_decay 1e-5
+python train.py --model <model> --mode <mode> \
+    --hidden_dim <hidden_dim> --dropout <dropout> --layers <layers> --heads <heads> \
+    --batch_size <batch_size> --max_epochs <max_epochs> --lr <lr> --weight_decay <weight_decay>
+    --use_gpu <use_gpu> --calculate_prediction <calculate_prediction>
 ```
 
 Optional arguments:
@@ -128,6 +121,23 @@ Optional arguments:
 --seed                 Random seed for reproducibility                       (default: 78438379)
 ```
 
+#### Example
+Training Transformer model by SMILES format dataset:
+```bash
+cd Spectrum2Structure/
+chmod +x run_train.sh
+./run_train.sh transformer-smiles
+```
+
+Custom settings.
+```bash
+cd Spectrum2Structure/
+python train.py --model Transformer --mode smiles \
+    --hidden_dim 768 --dropout 0.1 --layers 6 --heads 6 \
+    --batch_size 256 --max_epochs 95 --lr 1e-4 --weight_decay 1e-5 \
+    --use_gpu True --calculate_prediction True
+```
+
 ### Model Evaluation
 
 Available tasks for different datasets
@@ -144,19 +154,11 @@ chmod +x run_test.sh
 ./run_test.sh <model> <checkpoint> [mode] [output_file]
 ```
 
-#### Example
-Get Transformer model Topk resutls:
-```bash
-cd Spectrum2Structure/
-chmod +x run_test.sh
-./run_test.sh transformer checkpoints/Transformer-epoch=96-step=30070.ckpt topk
-```
-
 Or you can test the model with custom settings.
 ```bash
 cd Spectrum2Structure/
-python test.py --model Transformer --mode selfies --task topk \
-    --checkpoints checkpoints/Transformer-epoch=96-step=30070.ckpt --batch_size 256 --use_gpu True
+python test.py --model <model> --mode <mode> --task <task> \
+    --checkpoints <checkpoints> --batch_size <batch_size> --use_gpu <use_gpu> --output_file <output_file>
 ```
 
 Optional arguments:
@@ -169,6 +171,21 @@ Optional arguments:
 --use_gpu         Whether to use GPU for inference                           (default: True)
 --seed            Random seed for reproducibility                            (default: 78438379)
 --output_file     Custom output file name (optional)                         (default: None)
+```
+
+#### Example
+Get Transformer model Topk resutls:
+```bash
+cd Spectrum2Structure/
+chmod +x run_test.sh
+./run_test.sh transformer checkpoints/Transformer-epoch=96-step=30070.ckpt topk
+```
+
+Custom settings.
+```bash
+cd Spectrum2Structure/
+python test.py --model Transformer --mode selfies --task topk \
+    --checkpoints checkpoints/Transformer-epoch=96-step=30070.ckpt --batch_size 256 --use_gpu True
 ```
 
 ---

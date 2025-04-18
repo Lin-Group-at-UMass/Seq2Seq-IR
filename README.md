@@ -82,8 +82,11 @@ unzip smiles_checkpoints.zip
 ### Model Training
 
 Available models for different datasets
+
 Single  Molecule Dataset: ```lstm```, ```gru```, ```gpt```, ```transformer```
+
 Mixture Molecule Dataset: ```lstm-mixture```, ```gru-mixture ```, ```gpt-mixture```, ```transformer-mixture```
+
 SMILES  Format   Dataset: ```lstm-smiles```, ```gru-smiles```, ```gpt-smiles```, ```transformer-smiles```
 
 ```bash

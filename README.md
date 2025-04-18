@@ -35,10 +35,17 @@ cd Seq2Seq-IR/Spectrum2Structure/data
 # download or copy data to this default directory
 ```
 
----
+### The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
 
-## Checkpoints
-You can download the weights from
+---
+## Model Availability
+
+The pre-trained models can be obtained via PyTorch Hub
+```python
+model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
+```
+or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
+or you can download the weights from
 * [Google Drive](https://drive.google.com/drive/folders/1Wqoa6ORUxERydX8EVyIyzWl03dBqyarf)
 
 and save model weights to this dir
@@ -62,17 +69,6 @@ unzip smiles_checkpoints.zip
 
 #### Seq2Seq Models - SMILES
 * [smiles_checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
-
-### The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
-
----
-## Model Availability
-
-The pre-trained models can be obtained via PyTorch Hub
-```python
-model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
-```
-or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
 
 ---
 

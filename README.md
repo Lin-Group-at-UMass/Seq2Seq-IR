@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Data
 The data is available on Figshare at: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
-or can be downloaded by running:
+or can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1uXbKZQDkxGHBLhQMfLQr2GVHbTjspZlM):
 
 ```bash
 XXXXXXXXXX

@@ -101,6 +101,9 @@ chmod +x run_train.sh
 ./run_train.sh gpt-smiles
 ./run_train.sh transformer-smiles
 ```
+
+### Model Evaluation
+
 ---
 
 ## Questions, Comments, or Concerns?

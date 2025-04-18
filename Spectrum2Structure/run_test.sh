@@ -3,18 +3,18 @@
 # Script to test models using test.py
 # Usage: ./run_test.sh <model> <checkpoint> [task] [output_file]
 # Models:
-#   transformer           Test Transformer model with SELFIES encoding
-#   lstm                  Test LSTM model with SELFIES encoding
-#   gru                   Test GRU model with SELFIES encoding
-#   gpt                   Test GPT model with SELFIES encoding
-#   transformer-mixture   Test Transformer model with mixture encoding
-#   lstm-mixture          Test LSTM model with mixture encoding
-#   gru-mixture           Test GRU model with mixture encoding
-#   gpt-mixture           Test GPT model with mixture encoding
-#   transformer-smiles    Test Transformer model with SMILES encoding
-#   lstm-smiles           Test LSTM model with SMILES encoding
-#   gru-smiles            Test GRU model with SMILES encoding
-#   gpt-smiles            Test GPT model with SMILES encoding
+#   transformer           Train Transformer model with SELFIES encoding dataset
+#   lstm                  Train LSTM model with SELFIES encoding dataset
+#   gru                   Train GRU model with SELFIES encoding dataset
+#   gpt                   Train GPT model with SELFIES encoding dataset
+#   transformer-mixture   Train Transformer model with mixture encoding dataset
+#   lstm-mixture          Train LSTM model with mixture encoding dataset
+#   gru-mixture           Train GRU model with mixture encoding dataset
+#   gpt-mixture           Train GPT model with mixture encoding dataset
+#   transformer-smiles    Train Transformer model with SMILES encoding dataset
+#   lstm-smiles           Train LSTM model with SMILES encoding dataset
+#   gru-smiles            Train GRU model with SMILES encoding dataset
+#   gpt-smiles            Train GPT model with SMILES encoding dataset
 # Tasks:
 #   eval                  Evaluate model (default) - activate for selfies, mixture, and smiles
 #   generation            Generate molecules - activate for selfies, and mixture

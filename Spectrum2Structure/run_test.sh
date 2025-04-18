@@ -16,9 +16,9 @@
 #   gru-smiles            Test GRU model with SMILES encoding
 #   gpt-smiles            Test GPT model with SMILES encoding
 # Tasks:
-#   eval                  Evaluate model (default)
-#   generation            Generate molecules
-#   topk                  Perform top-k evaluation
+#   eval                  Evaluate model (default) - activate for selfies, mixture, and smiles
+#   generation            Generate molecules - activate for selfies, and mixture
+#   topk                  Perform top-k evaluation - activate for selfies only
 
 if [ "$#" -lt 2 ]; then
     echo "Usage: $0 <model> <checkpoint> [task] [output_file]"

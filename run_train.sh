@@ -32,7 +32,7 @@ elif [ "$1" == "gpt-mixture" ]; then
 
 elif [ "$1" == "transformer-mixture" ]; then
     echo "Training the Transformer-Mixture model..."
-    python Spectrum2Structure/train_mixture.py --model Transformer --hidden_dim 768 --dropout 0.1 --layers 6 --heads 6 --batch_size 256 --max_epochs 95 --lr 1e-4 --weight_decay 1e-5
+    python Spectrum2Structure/train_mixture.py --model Transformer --hidden_dim 768 --dropout 0.1 --layers 6 --heads 6 --batch_size 256 --max_epochs 80 --lr 1e-4 --weight_decay 1e-5
 
 # Single Molecule Training with SMILES format
 elif [ "$1" == "lstm-smiles" ]; then

@@ -116,7 +116,7 @@ SMILES  Format   Dataset: ```eval```
 ```bash
 cd Spectrum2Structure/
 chmod +x run_test.sh
-./run_test.sh <model> <checkpoint> <mode> [output_file]
+./run_test.sh <model> <checkpoint> [mode] [output_file]
 ```
 
 #### Example

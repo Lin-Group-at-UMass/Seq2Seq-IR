@@ -25,7 +25,7 @@ conda activate ir
 cd Spectrum2Structure/
 pip install -r requirements.txt
 ```
-
+#### Note: please keep pip version < 24.0
 ---
 
 ## Data

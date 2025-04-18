@@ -24,11 +24,6 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
-
-
----
-
 ## Data
 The data is available on Figshare at: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
@@ -69,6 +64,7 @@ unzip smiles_checkpoints.zip
 * [smiles_checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
 The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
+
 ---
 ## Model Availability
 
@@ -80,6 +76,10 @@ or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.fi
 ## Questions, Comments, or Concerns?
 
 For code related issues, please open a issue. For all other discussion, please open in the discussion tab.
+
+---
+
+## Usage
 
 ---
 

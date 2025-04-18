@@ -19,11 +19,9 @@ from src.tool_functions import same_smi, get_InchiKey
 from src.tool_functions import score as score_func
 
 # Import dataset utilities for different encodings
-from dataset_utils import SpectrumDataset as SpectrumDataset_SELFIES
-from dataset_utils import SpectrumDataModule as SpectrumDataModule_SELFIES
-from dataset_utils_smiles import SpectrumDataset as SpectrumDataset_SMILES
-from dataset_utils_smiles import SpectrumDataModule as SpectrumDataModule_SMILES
-from dataset_utils_mixture import SpectrumDataset_2, SpectrumDataModule as SpectrumDataModule_Mixture
+from dataset_utils import SelfiesSpectrumDataset, SelfiesSpectrumDataModule, \
+    MixtureSpectrumDataset, MixtureSpectrumDataModule, \
+    SmilesSpectrumDataset, SmilesSpectrumDataModule
 
 
 def parse_args():
@@ -311,19 +309,19 @@ def main():
 
     # Setup datasets based on mode
     if args.mode == 'selfies':
-        dataset = SpectrumDataset_SELFIES()
-        dataloader = SpectrumDataModule_SELFIES(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
-                                                val_split=0.2)
-        
-    elif args.mode == 'smiles':
-        dataset = SpectrumDataset_SMILES()
-        dataloader = SpectrumDataModule_SMILES(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
+        dataset = SelfiesSpectrumDataset()
+        dataloader = SelfiesSpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5, 
                                                val_split=0.2)
-        
+
+    elif args.mode == 'smiles':
+        dataset = SmilesSpectrumDataset()
+        dataloader = SmilesSpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5, 
+                                              val_split=0.2)
+
     elif args.mode == 'mixture':
-        dataset = SpectrumDataset_2()
-        dataloader = SpectrumDataModule_Mixture(dataset=dataset, batch_size=args.batch_size, test_split=0.5,
-                                                val_split=0.2)
+        dataset = MixtureSpectrumDataset()
+        dataloader = MixtureSpectrumDataModule(dataset=dataset, batch_size=args.batch_size, test_split=0.5, 
+                                               val_split=0.2)
 
     else:
         raise ValueError(f"Unknown mode: {args.mode}")

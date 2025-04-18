@@ -95,7 +95,24 @@ chmod +x run_train.sh
 ./run_train.sh <model>
 ```
 
-### Model Testing
+####Example
+Training Transformer model by SMILES format dataset:
+```bash
+cd Spectrum2Structure/
+chmod +x run_train.sh
+./run_train.sh transformer-smiles
+```
+
+### Model Evaluation
+
+Available modes for different datasets
+
+Single  Molecule Dataset: ```eval```, ```generation```, ```topk```
+
+Mixture Molecule Dataset: ```eval```, ```generation```
+
+SMILES  Format   Dataset: ```eval```
+
 ```bash
 cd Spectrum2Structure/
 chmod +x run_test.sh
@@ -116,8 +133,13 @@ Get Models Top-k Results
 ./run_test.sh <model> <checkpoint> topk [output_file]
 ```
 
-
-### Model Evaluation
+####Example
+Get Transformer model Topk resutls:
+```bash
+cd Spectrum2Structure/
+chmod +x run_test.sh
+./run_test.sh transformer checkpoints/Transformer-epoch=96-step=30070.ckpt topk
+```
 
 ---
 

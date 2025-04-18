@@ -25,6 +25,7 @@ Infrared (IR) spectroscopy reveals molecular and material features via their cha
 conda create -n ir python=3.12
 conda activate ir
 cd Spectrum2Structure/
+# pip install pip==24.0
 pip install -r requirements.txt
 ```
 #### Note: please keep ```pip ≤ 24.0```, if your ```pip > 24.0``` that can't download ```pytorch_lightning == 1.6.3```. If you download ```pytorch_lightning != 1.6.3```, please change the ```'gpus'``` setting of trainer in ```train.py```.

@@ -73,13 +73,16 @@ The pre-trained models can be obtained via PyTorch Hub
 model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
 ```
 or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
-## Questions, Comments, or Concerns?
-
-For code related issues, please open a issue. For all other discussion, please open in the discussion tab.
 
 ---
 
 ## Usage
+
+---
+
+## Questions, Comments, or Concerns?
+
+For code related issues, please open a issue. For all other discussion, please open in the discussion tab.
 
 ---
 

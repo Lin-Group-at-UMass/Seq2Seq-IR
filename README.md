@@ -3,7 +3,7 @@
  [![GitHub contributors](https://img.shields.io/github/contributors/Lin-Group-at-UMass/Seq2Seq-IR.svg)](https://github.com/Lin-Group-at-UMass/Seq2Seq-IR/graphs/contributors/)
  [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
 
-**[Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures](https://chemrxiv.org/engage/chemrxiv/article-details/67f601ef81d2151a029f5a2e)**\
+**Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures**\
 _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, Xiao Liu, Hui Guan, and Zhou Lin_
 
 <p align="center">

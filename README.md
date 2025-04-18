@@ -39,7 +39,7 @@ cd Spectrum2Structure/data
 # download or copy data to this default directory
 ```
 
-### The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are also temporarily available on Google Drive.
+### The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are temporarily available on Google Drive.
 
 ---
 ## Model Availability

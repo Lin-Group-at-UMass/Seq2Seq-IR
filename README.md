@@ -152,6 +152,26 @@ chmod +x run_test.sh
 ./run_test.sh transformer checkpoints/Transformer-epoch=96-step=30070.ckpt topk
 ```
 
+Or you can test the model with custom settings.
+```bash
+cd Spectrum2Structure/
+python test.py --model Transformer --mode selfies --task topk \
+    --checkpoints checkpoints/Transformer-epoch=96-step=30070.ckpt --batch_size 256 --use_gpu True
+```
+
+Optional arguments:
+```bash
+  --mode            Choose encoding mode: selfies, smiles, or mixture          (default: selfies)
+  --task            Task type: evaluation, generation, or top‑k prediction     (default: eval)
+  --model           Model architecture: LSTM, GRU, GPT, Transformer            (default: Transformer)
+  --checkpoints     Path to model checkpoint                                   
+  --batch_size      Batch size for testing                                     (default: 256)
+  --use_gpu         Whether to use GPU for inference                           (default: True)
+  --seed            Random seed for reproducibility                            (default: 78438379)
+  --output_file     Custom output file name (optional)                         (default: None)
+
+```
+
 ---
 
 ## Questions, Comments, or Concerns?

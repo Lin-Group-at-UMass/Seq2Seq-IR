@@ -37,14 +37,7 @@ def parse_args():
 
 
 def get_model(args, max_word_len, num_classes, input_dim, padding_idx):
-    if args.mode == 'selfies':
-        model_map = {
-            'GRU': GRU_test,
-            'LSTM': LSTM_autoregressive,
-            'GPT': GPT,
-            'Transformer': Transformer
-        }
-    elif args.mode == 'smiles':
+    if args.mode == 'selfies' or args.mode == 'smiles':
         model_map = {
             'GRU': GRU_test,
             'LSTM': LSTM_autoregressive,

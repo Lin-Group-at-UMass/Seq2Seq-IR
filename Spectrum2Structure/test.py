@@ -86,17 +86,6 @@ def get_model(args):
 
     return model
 
-
-def get_callbacks(args):
-    checkpoint_callback = ModelCheckpoint(
-        monitor='step',
-        dirpath='checkpoints/',
-        filename=f"{args.mode}_{args.model}" + '-{epoch:02d}-{step:02d}',
-        save_top_k=3,
-        mode='max')
-    return checkpoint_callback
-
-
 def get_output_filename(args):
     """Generate output filename based on args"""
     if args.output_file:

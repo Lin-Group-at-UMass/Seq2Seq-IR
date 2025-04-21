@@ -196,7 +196,7 @@ python test.py --model Transformer --mode selfies --task topk \
 
 ## Questions, Comments, or Concerns?
 
-For code related issues, please open a issue. For all other discussion, please open in the discussion tab.
+For anything code related, please open an issue. Otherwise, please open a discussion tab.
 
 ---
 

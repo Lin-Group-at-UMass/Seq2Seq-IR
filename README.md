@@ -130,7 +130,7 @@ chmod +x run_train.sh
 ./run_train.sh transformer-smiles
 ```
 
-Custom settings.
+Custom settings:
 ```bash
 cd Spectrum2Structure/
 python train.py --model Transformer --mode smiles \
@@ -183,7 +183,7 @@ chmod +x run_test.sh
 ./run_test.sh transformer checkpoints/Transformer-epoch=96-step=30070.ckpt topk
 ```
 
-Custom settings.
+Custom settings:
 ```bash
 cd Spectrum2Structure/
 python test.py --model Transformer --mode selfies --task topk \

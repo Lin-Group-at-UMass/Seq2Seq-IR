@@ -14,11 +14,11 @@ cd Spectrum2Structure/
 # pip install pip==24.0
 pip install -r requirements.txt
 ```
-#### 注意：请使用```pip ≤ 24.0```，如果你的```pip > 24.0```会导致```pytorch_lightning == 1.6.3```无法下载。如果你下载 的```pytorch_lightning != 1.6.3```，请修改```train.py```文件中的```'gpus'```设置。
+#### 注意: 请使用```pip ≤ 24.0```，如果你的```pip > 24.0```会导致```pytorch_lightning == 1.6.3```无法下载。如果你下载 的```pytorch_lightning != 1.6.3```，请修改```train.py```文件中的```'gpus'```设置。
 
 ---
 ## Data - 数据
-可以通过Figshare来访问我们的数据集：[10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
+可以通过Figshare来访问我们的数据集: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
 然后请将数据保存到data目录当中
 ```bash
@@ -63,7 +63,7 @@ unzip smiles_checkpoints.zip
 ## Usage - 使用方法
 ### Model Training - 模型训练
 
-对于不同数据集的可用的模型：
+对于不同数据集的可用的模型:
 
 SELFIES格式数据集: ```lstm```, ```gru```, ```gpt```, ```transformer```
 
@@ -104,14 +104,14 @@ python train.py --model <model> --mode <mode> \
 ```
 
 #### Example - 样例
-使用SMILES格式数据集来训练Transformer模型：
+使用SMILES格式数据集来训练Transformer模型:
 ```bash
 cd Spectrum2Structure/
 chmod +x run_train.sh
 ./run_train.sh transformer-smiles
 ```
 
-自定义设置：
+自定义设置:
 ```bash
 cd Spectrum2Structure/
 python train.py --model Transformer --mode smiles \
@@ -157,14 +157,14 @@ python test.py --model <model> --mode <mode> --task <task> \
 ```
 
 #### Example - 样例
-使用Transformer模型来得到Topk结果：
+使用Transformer模型来得到Topk结果:
 ```bash
 cd Spectrum2Structure/
 chmod +x run_test.sh
 ./run_test.sh transformer checkpoints/Transformer-epoch=96-step=30070.ckpt topk
 ```
 
-自定义设置：
+自定义设置:
 ```bash
 cd Spectrum2Structure/
 python test.py --model Transformer --mode selfies --task topk \
@@ -185,7 +185,7 @@ For anything code related, please open an issue. Otherwise, please open a discus
 
 If you find this model and code are useful in your work, please cite:
 
-如果您在工作中发现本模型和代码有用，请引用以下文献：
+如果您在工作中发现本模型和代码有用，请引用以下文献:
 ```bibtex
 @article{french2025revolutionizing,
   title={Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures},

@@ -79,7 +79,7 @@ def get_callbacks(args):
     checkpoint_callback = ModelCheckpoint(
         monitor='step',
         dirpath='checkpoints/',
-        filename=f"{args.mode}_{args.model}" + '-{epoch:02d}-{step:02d}',
+        filename=f"{args.model}_{args.mode}" + '-{epoch:02d}-{step:02d}',
         save_top_k=3,
         mode='max')
     return checkpoint_callback

@@ -53,10 +53,7 @@ model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
 ```
 or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
 
-or you can download the weights from
-* [Google Drive](https://drive.google.com/drive/folders/1Wqoa6ORUxERydX8EVyIyzWl03dBqyarf)
-
-and save model weights to this dir
+and then save the model weights to the data directory
 ```bash
 cd Spectrum2Structure/
 mkdir checkpoints

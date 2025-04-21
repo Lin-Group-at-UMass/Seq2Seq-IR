@@ -14,7 +14,7 @@ cd Spectrum2Structure/
 # pip install pip==24.0
 pip install -r requirements.txt
 ```
-#### 注意: 请使用```pip ≤ 24.0```，如果你的```pip > 24.0```会导致```pytorch_lightning == 1.6.3```无法下载。如果你下载 的```pytorch_lightning != 1.6.3```，请修改```train.py```文件中的```'gpus'```设置。
+#### 注意: 请使用```pip ≤ 24.0```，如果你的```pip > 24.0```会导致```pytorch_lightning == 1.6.3```无法下载。如果你下载的```pytorch_lightning != 1.6.3```，请修改```train.py```文件中的```'gpus'```设置。
 
 ---
 ## Data - 数据

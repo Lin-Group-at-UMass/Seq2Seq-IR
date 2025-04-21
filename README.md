@@ -14,7 +14,7 @@ _Ethan J. French, Xianqi Deng, Siqi Chen, Cheng-Wei Ju, Xi Cheng, Lijun Zhang, X
 ## Language
 For English, see [README.en.md](README.md) \
 para español, consulte [README.es.md](README.es.md)  
-For Chinese, see [README.zh.md](README.zh.md)
+中文版, 请参见 [README.zh.md](README.zh.md)
 
 ---
 

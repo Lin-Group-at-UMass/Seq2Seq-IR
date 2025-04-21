@@ -49,7 +49,7 @@ def parse_args():
 
 def get_model(args):
     # Select model class based on mode and task
-    if args.mode == 'selfies' or args.mode == 'smiles':
+    if args.mode == 'selfies' and (args.task =='eval' or args.task =='generation' or args.task =='topk'):
         if args.task != 'topk':
             model_map = {
                 'GRU': GRU_test,
@@ -64,7 +64,14 @@ def get_model(args):
                 'GPT': GPT_topk,
                 'Transformer': Transformer_topk
             }
-    elif args.mode == 'mixture':
+    elif args.mode == 'smiles' and args.task =='eval':
+        model_map = {
+            'GRU': GRU_test,
+            'LSTM': LSTM_autoregressive,
+            'GPT': GPT,
+            'Transformer': Transformer
+        }
+    elif args.mode == 'mixture' and (args.task =='eval' or args.task =='generation'):
         model_map = {
             'GRU': GRU_Mixture,
             'LSTM': LSTM_Mixture,
@@ -72,7 +79,7 @@ def get_model(args):
             'Transformer': Transformer_Mixture
         }
     else:
-        raise ValueError(f"Unknown mode: {args.mode}")
+        raise ValueError(f"Unknown {args.mode} mode for the {args.task} task.")
 
     model_cls = model_map[args.model]
     model = model_cls.load_from_checkpoint(args.checkpoints)

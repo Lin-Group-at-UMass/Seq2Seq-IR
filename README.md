@@ -34,12 +34,10 @@ pip install -r requirements.txt
 ## Data
 The data is available on Figshare at: [10.6084/m9.figshare.28754678](https://doi.org/10.6084/m9.figshare.28754678) 
 
-or can be downloaded the [data](https://drive.google.com/drive/folders/1cnhPv3j5suJ9ZkO9w6gxyMYXCxSbyR1k) from Google Drive
-
-and save data to this dir
+The data should then be saved to the data directory
 ```bash
-cd Spectrum2Structure/data
 # download or copy data to this default directory
+cd Spectrum2Structure/data
 ```
 
 ### The [code and data](https://drive.google.com/drive/folders/1UMvwrLYZU5D3FcrdzxSXH_fPjSDE0uyb) are temporarily available on Google Drive.
@@ -53,7 +51,7 @@ model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
 ```
 or via FigShare at: [10.6084/m9.figshare.28795676](https://doi.org/10.6084/m9.figshare.28795676)
 
-and then save the model weights to the data directory
+then save the model weights to the data directory
 ```bash
 cd Spectrum2Structure/
 mkdir checkpoints

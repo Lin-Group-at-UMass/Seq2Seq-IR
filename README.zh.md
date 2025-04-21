@@ -43,19 +43,21 @@ cd checkpoints/
 # 下载并复制数据到该目录当中
 unzip smiles_checkpoints.zip
 ```
-#### Seq2Seq Models - SELFIES Format 通过SELFIES格式数据集训练的模型
+其他 - Google Drive
+
+Seq2Seq Models - SELFIES Format 通过SELFIES格式数据集训练的模型
 * [LSTM-SELFIES](https://drive.google.com/file/d/18h9KhxCqPs8dqfkvVkXmlpzUHZcvXVG3/view?usp=drive_link)
 * [GRU-SELFIES](https://drive.google.com/file/d/1yvieeRp4zAPLxwbEXy2r_y-KKDQtpuoE/view?usp=drive_link)
 * [GPT-SELFIES](https://drive.google.com/file/d/1aZ4LimRDZQdO6-nbl2L7pFX_1tf7bcb5/view?usp=drive_link)
 * [Transformer-SELFIES](https://drive.google.com/file/d/1GEKui9gihHuNBLjL39D7RFfIPul5FBBf/view?usp=drive_link)
 
-#### Seq2Seq Models - Mixture Molecule 通过混合分子格式数据集训练的模型
+Seq2Seq Models - Mixture Molecule 通过混合分子格式数据集训练的模型
 * [LSTM-Mixture](https://drive.google.com/file/d/1SR_eywrGnizKsq3pj90MIOsoJUXYmXyi/view?usp=drive_link)
 * [GRU-Mixture](https://drive.google.com/file/d/1gnLu4cNLegIQ_VY02NHMEHdprG7vvooN/view?usp=drive_link)
 * [GPT-Mixture](https://drive.google.com/file/d/1MEW_AM3cALkOGscMi5OxXYdUKQECDlny/view?usp=drive_link)
 * [Transformer-Mixture](https://drive.google.com/file/d/1BvmMF_TV3AM2rN7n5v-x8-M_gF-I_PMk/view?usp=drive_link)
 
-#### Seq2Seq Models - SMILES Format 通过SMILES格式数据集训练的模型
+Seq2Seq Models - SMILES Format 通过SMILES格式数据集训练的模型
 * [SMILES_Checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
 ---

@@ -15,15 +15,28 @@ preferred-citation:
   - family-names: "French"
     given-names: "Ethan J."
     orcid: "https://orcid.org/0000-0002-0418-0489"
-  - family-names: "Bot"
-    given-names: "Hew"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  doi: "10.0000/00000"
-  journal: "Journal Title"
-  month: 9
-  start: 1 # First page number
-  end: 10 # Last page number
-  title: "My awesome research software"
-  issue: 1
-  volume: 1
-  year: 2021
+  - family-names: "Deng"
+    given-names: "Xianqi"
+    orcid: "https://orcid.org/0000-0002-6526-7190"
+  - family-names: "Chen"
+    given-names: "Siqi"
+    orcid: "https://orcid.org/0009-0002-5008-7522"
+  - family-names: "Ju"
+    given-names: "Cheng-Wei"
+    orcid: "https://orcid.org/0000-0002-2250-8548"
+  - family-names: "Cheng"
+    given-names: "Xi"
+  - family-names: "Zhang"
+    given-names: "Lijun"
+  - family-names: "Liu"
+    given-names: "Xiao"
+  - family-names: "Guan"
+    given-names: "Hui"
+  - family-names: "Lin"
+    given-names: "Zhou"
+    orcid: "https://orcid.org/0000-0003-3271-5345"
+  doi: "10.26434/chemrxiv-2025-n4q84"
+  journal: "ChemRxiv"
+  month: 4
+  title: "Revolutionizing Spectroscopic Analysis Using Sequence-to-Sequence Models I: From Infrared Spectra to Molecular Structures"
+  year: 2025

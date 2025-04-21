@@ -176,6 +176,7 @@ python test.py --model Transformer --mode selfies --task topk \
 ## Questions, Comments, or Concerns? - 任何问题，意见或疑虑？
 
 For anything code related, please open an issue. Otherwise, please open a discussion tab.
+
 如涉及代码相关的问题，请提交 Issue；其他情况请在讨论区发帖。
 
 ---
@@ -183,6 +184,7 @@ For anything code related, please open an issue. Otherwise, please open a discus
 ## Citation - 引用
 
 If you find this model and code are useful in your work, please cite:
+
 如果您在工作中发现本模型和代码有用，请引用以下文献：
 ```bibtex
 @article{french2025revolutionizing,

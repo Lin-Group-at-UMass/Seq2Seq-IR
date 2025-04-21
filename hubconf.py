@@ -1,40 +1,54 @@
 # Upload IR models to PyTorch Hub
+from Spectrum2Structure.src.models import Transformer, GPT, LSTM_autoregressive, GRU
 
-
-# Example code is below
+# dependencies to load and use model
 dependencies = ['torch']
 
-# resnet18 is the name of entrypoint
-def resnet18(pretrained=False, **kwargs):
+# entrypoint
+def Spectrum2Structure(pretrained=True, model='transformer', mode='selfies', **kwargs):
     """ # This docstring shows up in hub.help()
-    Resnet18 model
-    pretrained (bool): kwargs, load pretrained weights into the model
-    """
-    # Call the model, load pretrained weights
-    model = _resnet18(pretrained=pretrained, **kwargs)
-    return model
-
-# model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
-
-if pretrained:
-    # For checkpoint saved in local GitHub repo, e.g. <RELATIVE_PATH_TO_CHECKPOINT>=weights/save.pth
-    dirname = os.path.dirname(__file__)
-    checkpoint = os.path.join(dirname, <RELATIVE_PATH_TO_CHECKPOINT>)
-    state_dict = torch.load(checkpoint)
-    model.load_state_dict(state_dict)
-
-    # For checkpoint saved elsewhere
-    checkpoint = 'https://download.pytorch.org/models/resnet18-5c106cde.pth'
-    model.load_state_dict(torch.hub.load_state_dict_from_url(checkpoint, progress=False))
-
-def IR_Transformer(pretrained=True, **kwargs):
-    return 
-    
-def IR_GPT(pretrained=True, **kwargs):
-    return 
-    
-def IR_LSTM(pretrained=True, **kwargs):
-    return 
-    
-def IR_GRU(pretrained=True, **kwargs):
-    return 
+       Spectrum2Structure model
+       pretrained (bool): load pretrained weights
+       model (string): model to be used (transformer, GPT, LSTM, GRU)
+       mode (string): mode for model to operate in (selfies, mixture, smiles)
+       """
+    if model == 'transformer':
+        if mode == 'selfies':
+            m = Transformer(hidden_dim=768, dropout=0.1, layers=6, heads=6, batch_size=256)
+            checkpoint = 'PATH/TO/DOI'
+        elif mode == 'mixture':
+            m = Transformer(hidden_dim=768, dropout=0.1, layers=6, heads=6, batch_size=256)
+            checkpoint = 'PATH/TO/DOI'
+        else:
+            m = Transformer(hidden_dim=768, dropout=0.1, layers=6, heads=6, batch_size=256)
+            checkpoint = 'PATH/TO/DOI'
+    elif model == 'gpt':
+        if mode == 'selfies':
+            m = GPT(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+        elif mode == 'mixture':
+            m = GPT(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+        else:
+            m = GPT(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+    elif model == 'lstm':
+        if mode == 'selfies':
+            m = LSTM_autoregressive(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+        elif mode == 'mixture':
+            m = LSTM_autoregressive(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+        else:
+            m = LSTM_autoregressive(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+    elif model == 'gru':
+        if mode == 'selfies':
+            m = GRU(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+        elif mode == 'mixture':
+            m = GRU(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'
+        else:
+            m = GRU(hidden_dim=400, dropout=0.1, layers=4)
+            checkpoint = 'PATH/TO/DOI'

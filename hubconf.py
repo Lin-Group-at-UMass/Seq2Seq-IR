@@ -24,13 +24,13 @@ def Spectrum2Structure(pretrained=True, model='transformer', mode='selfies', **k
             checkpoint = 'PATH/TO/DOI'
     elif model == 'gpt':
         if mode == 'selfies':
-            m = GPT(hidden_dim=400, dropout=0.1, layers=4)
+            m = GPT(hidden_dim=400, dropout=0.1, layers=4, heads=4)
             checkpoint = 'PATH/TO/DOI'
         elif mode == 'mixture':
-            m = GPT(hidden_dim=400, dropout=0.1, layers=4)
+            m = GPT(hidden_dim=400, dropout=0.1, layers=4, heads=4)
             checkpoint = 'PATH/TO/DOI'
         else:
-            m = GPT(hidden_dim=400, dropout=0.1, layers=4)
+            m = GPT(hidden_dim=400, dropout=0.1, layers=4, heads=4)
             checkpoint = 'PATH/TO/DOI'
     elif model == 'lstm':
         if mode == 'selfies':

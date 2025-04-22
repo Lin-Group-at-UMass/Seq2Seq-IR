@@ -34,7 +34,7 @@ cd Spectrum2Structure/
 # pip install pip==24.0
 pip install -r requirements.txt
 ```
-#### Note: please keep ```pip ≤ 24.0```, if your ```pip > 24.0``` that can't download ```pytorch_lightning == 1.6.3```. If you download ```pytorch_lightning != 1.6.3```, please change the ```'gpus'``` setting of trainer in ```train.py```.
+#### Note: Please keep ```pip ≤ 24.0```, if your ```pip > 24.0``` that can't download ```pytorch_lightning == 1.6.3```. If you download ```pytorch_lightning != 1.6.3```, please change the ```'gpus'``` setting of trainer in ```train.py```.
 ---
 
 ## Data
@@ -80,7 +80,7 @@ Seq2Seq Models - Mixture Molecule
 Seq2Seq Models - SMILES Format
 * [SMILES_Checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
-#### Note: if you use the ```Transformer``` related model weights to evaluation, please set the batchsize as 256.
+#### Note: Since the Transformer model utilizes Batch Normalization for spectra data, please ensure that the batch size is set to 256 when using any Transformer-based model weights.
 
 ---
 

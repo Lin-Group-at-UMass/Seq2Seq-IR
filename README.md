@@ -80,6 +80,8 @@ Seq2Seq Models - Mixture Molecule
 Seq2Seq Models - SMILES Format
 * [SMILES_Checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
+#### Note: if you use the ```Transformer``` related model weights to evaluation, please set the batchsize as 256.
+
 ---
 
 ## Usage

@@ -60,7 +60,7 @@ Seq2Seq Models - Mixture Molecule 通过混合分子格式数据集训练的模�
 Seq2Seq Models - SMILES Format 通过SMILES格式数据集训练的模型
 * [SMILES_Checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
-#### 注意: 由于Transformer模型中使用了Batch Normalization来处理光谱数据，请确保在使用Transformer相关模型时将Batch Size设置为256.
+#### 注意: 由于Transformer模型中使用了Batch Normalization来处理光谱数据，请确保在使用Transformer相关的模型权重时将Batch Size设置为256.
 
 ---
 

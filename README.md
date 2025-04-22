@@ -80,7 +80,7 @@ Seq2Seq Models - Mixture Molecule
 Seq2Seq Models - SMILES Format
 * [SMILES_Checkpoints](https://drive.google.com/file/d/1OHjNAwHIZGW89V9PlxsNk0SL0lJaL5hw/view?usp=drive_link)
 
-#### Note: Since the Transformer model utilizes Batch Normalization for spectra data, please ensure that the batch size is set to 256 when using any Transformer-based model weights.
+#### Note: Since the Transformer model utilizes Batch Normalization for spectra data, please ensure that the Batch Size is set to 256 when using any Transformer-based model weights.
 
 ---
 

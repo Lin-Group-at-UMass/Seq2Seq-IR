@@ -202,10 +202,11 @@ If you find this model and code are useful in your work, please cite:
 ---
 
 ## Acknowledgements - 致谢
-
+<p align="justify">
 H.G. and Z.L. acknowledge the financial support from from the University of Massachusetts
 Amherst under their Start-Up Funds and the ADVANCE Collaborative Grant. All au-
 thors acknowledge UMass/URI Unity Cluster and MIT SuperCloud for providing high-
 performance computing (HPC) resources.
+</p>
 
 关卉和林舟感谢马萨诸塞大学阿默斯特分校提供的启动经费和 ADVANCE 协作资助所给予的财政支持。所有作者感谢 UMass/URI Unity 集群和 MIT SuperCloud 提供的高性能计算（HPC）资源支持。

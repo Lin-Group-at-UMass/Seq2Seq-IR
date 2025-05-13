@@ -204,8 +204,7 @@ If you find this model and code are useful in your work, please cite:
 ## Acknowledgements - 致谢
 <p align="justify">
 H.G. and Z.L. acknowledge the financial support from from the University of Massachusetts
-Amherst under their Start-Up Funds and the ADVANCE Collaborative Grant. All au-
-thors acknowledge UMass/URI Unity Cluster and MIT SuperCloud for providing high-
+Amherst under their Start-Up Funds and the ADVANCE Collaborative Grant. All authors acknowledge UMass/URI Unity Cluster and MIT SuperCloud for providing high-
 performance computing (HPC) resources.
 </p>
 

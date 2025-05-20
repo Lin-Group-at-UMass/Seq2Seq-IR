@@ -179,15 +179,11 @@ python test.py --model Transformer --mode selfies --task topk \
 
 ## Questions, Comments, or Concerns? - 任何问题，意见或疑虑？
 
-For anything code related, please open an issue. Otherwise, please open a discussion tab.
-
 如涉及代码相关的问题，请提交 Issue；其他情况请在讨论区发帖。
 
 ---
 
 ## Citation - 引用
-
-If you find this model and code are useful in your work, please cite:
 
 如果您在工作中发现本模型和代码有用，请引用以下文献:
 ```bibtex
@@ -202,10 +198,6 @@ If you find this model and code are useful in your work, please cite:
 ---
 
 ## Acknowledgements - 致谢
-<p align="justify">
-H.G. and Z.L. acknowledge the financial support from from the University of Massachusetts
-Amherst under their Start-Up Funds and the ADVANCE Collaborative Grant. All authors acknowledge UMass/URI Unity Cluster and MIT SuperCloud for providing high-performance computing (HPC) resources.
-</p>
 
 <p align="justify">
 关卉和林舟感谢马萨诸塞大学阿默斯特分校提供的 Start-Up Funds 和 ADVANCE Collaborative Grant 所给予的财政支持。所有作者感谢 UMass/URI Unity 集群和 MIT SuperCloud 提供的高性能计算（HPC）资源支持。
